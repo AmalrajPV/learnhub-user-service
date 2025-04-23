@@ -1,9 +1,9 @@
 name: Sonar Scan
 
 on:
-  push:
+  pull_request:
     branches:
-      - main
+    - main
 
 jobs:
   build-and-analyze:
