@@ -14,6 +14,8 @@ public class PingController {
     @Autowired
     private AppConfig appConfig;
 
+    private final boolean status = false;
+
     @GetMapping
     public AppDetailResponse ping() {
         AppDetailResponse appDetailResponse = new AppDetailResponse();
